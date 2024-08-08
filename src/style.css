@@ -25,3 +25,58 @@ body{
     background: black;
     color: chocolate;
 }
+
+.button_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .action_button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+  }
+  
+  .action_button:hover {
+    background-color: white;
+    color: #007BFF;
+    transform: scale(1.05);
+  }
+  
+  .start_button {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .start_button:hover {
+    background-color: white;
+    color: #28a745;
+  }
+  
+  .stop_button {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .stop_button:hover {
+    background-color: white;
+    color: #dc3545;
+  }
+  
+  .reset_button {
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  .reset_button:hover {
+    background-color: white;
+    color: #ffc107;
+  }
+  
